@@ -43,6 +43,8 @@ def play(board)
     turn(board)
     play_turn += 1 
   end
+  if won?(board) == TRUE
+    puts ""
 end
 
 def turn_count(arr)
